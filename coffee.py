@@ -37,8 +37,9 @@ while(1):
       break
     else:
       print("invalid input")
+      c=c-1
 
-print("No of people rated is: ",c-1)
+print("No of people rated is: ",c-1,"valid ratings")
 print("No of people who rated: ")
 print("5=",fi,"||4=",f,"||3=",t,"||2=",tw,"||1=",o)        
 print("The average rating is: ",r/(c-1))
